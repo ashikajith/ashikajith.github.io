@@ -16,8 +16,8 @@
 title: Ashik Ajith
 email: ashikajith@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a full stack Ruby on Rails developer who like to explore new technologies that make a Developer more friendly and 
-  makes our life better compare to relationships !!!
+  I am a full stack Ruby on Rails developer who likes to explore new technologies that makes a Developer more friendly and
+  makes our life better !!!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: ashikajith
