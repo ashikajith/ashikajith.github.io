@@ -25,7 +25,7 @@ number = [1,2,3,4,5].each {|el| p el }
 number = [1,2,3].each
 => #<Enumerator: [1, 2, 3, 4, 5]:each>
 ```
-Now we have invoked the Enumerator, lets play with it for a while.
+Now we that have invoked the Enumerator, lets play with it for a while.
 
 ```ruby
 number.next
@@ -52,7 +52,7 @@ Now we use some of the quality methods to get some outputs from a set of ranges.
 => [6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96]
 ```
 
-Nice and easy but what if, we need to get control on each iteration? Well for that we need to use the `next` method. Here are few alternatives.
+Nice and easy but If we need to get control on each iteration? Well for that we need to use the `next` method. Here are few alternatives.
 
 ```ruby
 # Method 1
@@ -70,7 +70,7 @@ end
 loop { p twos_and_threes.next }
 ```
 
-IMO `Method 2` is kind of sexy :) but both are messy and ugly. The advantage is we have the control on each iteration so that we can do other operation for a specific element. But it is not efficient and thus we look out for **Lazy Enumerator**.
+IMO `Method 2` is kind of sexy :) but both methods are messy and ugly. The advantage is we have the control on each iteration so that we can do other operation for a specific element. But it is not efficient and thus we look out for **Lazy Enumerator**.
 
 # Lazy Enumerator Initialization
 Returns a class name Lazy Enumerator which enumerates value only if it is needed. Check out the document [here](https://ruby-doc.org/core-2.0.0/Enumerator/Lazy.html).
@@ -120,4 +120,4 @@ irb(main):044:0> number.next
 
 # Where we can apply these ?
 
-All these methods are created for a purpose. From my experience there was a time I have to process big text files to find a specific keyword or pattern and the Lazy Enumerator have saved me a lot to tackle those business problems. I will try to give a squeeze on the file management with Lazy Enumerator in my next post.
+All these methods are created for a purpose. From my experience there was a time I had to process big text files to find a specific keyword or pattern and the Lazy Enumerator have saved me a lot to tackle those business problems. I will try to give a squeeze on the file management with Lazy Enumerator in my next post.
