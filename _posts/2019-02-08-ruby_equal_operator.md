@@ -2,6 +2,7 @@
 layout: post
 title: "Ruby Equal Operator"
 date:  2019-02-08 13:37:32
+exclude_rss: true
 categories: Ruby
 ---
 

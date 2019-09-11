@@ -2,6 +2,7 @@
 layout: post
 title: "Play Lazy with Enumerators but not too Lazy !!"
 date:  2019-03-16  1:38:32
+exclude_rss: true
 categories: Ruby
 ---
 
@@ -118,6 +119,6 @@ irb(main):044:0> number.next
 => 4231168
 ```
 
-# Where we can apply these ?
+# Where we can apply these '?'
 
 All these methods are created for a purpose. From my experience there was a time I had to process big text files to find a specific keyword or pattern and the Lazy Enumerator have saved me a lot to tackle those business problems. I will try to give a squeeze on the file management with Lazy Enumerator in my next post.
