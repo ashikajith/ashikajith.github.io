@@ -60,9 +60,9 @@ file.each_line.lazy.each_with_index.map { |line, i| "LINE #{ i }: #{ line }" }.s
 # "LINE 6: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n",
 # "LINE 12: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n"]
 
-# After executing the above line the file object will point at Line 13 of the file, to get it back to the beginning of the file
-# execute the below code
-file.rewind # Note*
+# After executing the above line the file object will point at Line 13 of the file
+# In-order to get the pointer back to the beginning of the file execute the below code
+file.rewind
 
 ```
 
